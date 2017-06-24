@@ -9,7 +9,7 @@
   },
   "scripts": {
     "clean": "rimraf dist",
-    "example": "webpack-dev-server --inline --colors --config ./build/webpack.example.conf.js",
+    "start": "webpack-dev-server --inline --colors --config ./build/webpack.example.conf.js",
     "prebuild": "cross-env NODE_ENV=production npm run clean",
     "build": "cross-env NODE_ENV=production webpack --config ./build/webpack.prod.conf.js",
     "predev": "cross-env NODE_ENV=development npm run dll",

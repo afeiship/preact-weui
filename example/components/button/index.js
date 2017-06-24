@@ -1,15 +1,14 @@
 import {Component, h} from 'preact';
+import {Page, PageBody, PageFooter, PageHeader} from '../_common/page';
 
-import PageFooter from '../_common/page-footer';
-import PageHeader from '../_common/page-header';
 import WeuiButton from 'src/button/index';
 
 export default class extends Component{
   render(){
     return (
-      <div className="page button js_show">
+      <Page page="page">
         <PageHeader title="Button" desc="按钮" />
-        <section className="page__bd page__bd_spacing">
+        <PageBody>
           <WeuiButton theme="primary">页面主操作 Normal</WeuiButton>
           <WeuiButton theme="primary" loading> 页面主操作 Loading </WeuiButton>
           <WeuiButton theme="primary" disabled> 页面主操作 Disabled </WeuiButton>
@@ -28,9 +27,9 @@ export default class extends Component{
             <WeuiButton mini theme="primary">按钮</WeuiButton>
             <WeuiButton mini theme="warn">按钮</WeuiButton>
           </div>
-        </section>
+        </PageBody>
         <PageFooter />
-      </div>
+      </Page>
     )
   }
 }
