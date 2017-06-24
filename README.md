@@ -9,4 +9,5 @@
 
 ## todos:
 - [x] button
+- [x] icon
 - [ ] cells

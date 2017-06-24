@@ -12,7 +12,8 @@ module.exports = {
   },
   externals:{
     'preact': 'preact',
-    'noop':'noop'
+    'noop':'noop',
+    'classnames':'classnames',
   },
   module:{
     rules: [
