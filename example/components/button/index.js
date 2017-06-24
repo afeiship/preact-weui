@@ -1,5 +1,5 @@
 import {Component, h} from 'preact';
-import {Page, PageBody, PageFooter, PageHeader} from '../_common/page';
+import {Page, PageBody, PageFooter, PageHeader} from '../_common/index';
 
 import WeuiButton from 'src/button/index';
 

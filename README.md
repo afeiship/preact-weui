@@ -8,4 +8,5 @@
 ## resources:
 
 ## todos:
-- [ ] todo list..
+- [x] button
+- [ ] cells

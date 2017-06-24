@@ -1,10 +1,5 @@
 import {Component, h} from 'preact';
-
-import PageBody from './page-body';
-import PageFooter from './page-footer';
-import PageHeader from './page-header';
-
-class Page extends Component{
+export default class extends Component{
   render({page,children}){
     return (
       <section className={`page ${page} js_show`}>
@@ -12,12 +7,4 @@ class Page extends Component{
       </section>
     )
   }
-}
-
-
-export {
-  Page,
-  PageBody,
-  PageFooter,
-  PageHeader
 }
