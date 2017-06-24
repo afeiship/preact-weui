@@ -98,8 +98,8 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var _class = function (_Comment) {
-  _inherits(_class, _Comment);
+var _class = function (_Component) {
+  _inherits(_class, _Component);
 
   function _class() {
     _classCallCheck(this, _class);
@@ -110,16 +110,16 @@ var _class = function (_Comment) {
   _createClass(_class, [{
     key: "render",
     value: function render(props) {
-      (0, _preact.h)(
-        "button",
-        { className: "weui-button" },
+      return (0, _preact.h)(
+        "a",
+        { className: "weui-btn weui-btn_primary" },
         props.children
       );
     }
   }]);
 
   return _class;
-}(Comment);
+}(_preact.Component);
 
 exports.default = _class;
 

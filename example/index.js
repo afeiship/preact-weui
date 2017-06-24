@@ -1,8 +1,14 @@
 import {h, render} from 'preact';
 
-import App from './views/app';
+import Button from './components/button/index';
+import Home from './components/home/index';
+import { Link } from 'preact-router/match';
+import Router from 'preact-router';
 
 render(
-  <App />,
+  <Router>
+    <Home path="/" />
+    <Button path="/button" />
+  </Router>,
   document.getElementById('app')
 );
