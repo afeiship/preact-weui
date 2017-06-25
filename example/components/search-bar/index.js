@@ -17,7 +17,7 @@ export default class extends Component{
         <section className="page__bd page__bd_spacing">
           <WeuiSearchBar data-test="1234" onChange={this._onChange} />
         </section>
-        <PageFooter />
+        <PageFooter bottom />
       </div>
     )
   }
