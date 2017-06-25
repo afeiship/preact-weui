@@ -1,11 +1,10 @@
 const path = require('path');
 const webpack = require('webpack');
+const glob = require('glob');
+const entries = glob.sync('./src/**/index.js');
 
 module.exports = {
-  entry:[
-    './src/weui-button/index.js',
-    './src/weui-actionsheet/index.js',
-  ],
+  entry:entries,
   output:{
     path: path.join(__dirname ,'../dist/'),
     filename: 'preact-weui.js'

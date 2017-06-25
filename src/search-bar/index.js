@@ -8,21 +8,29 @@ export default class extends Component{
     this.setState({focused:true})
   };
 
-  _onBlur = (inEvent) =>{
-    this.setState({focused:false})
-  };
-
   _onInput = (inEvent) =>{
-    console.log(this,inEvent.target.value);
     const {onChange} = this.props;
     onChange && onChange(inEvent);
   };
 
+  _onClear = (inEvent) =>{
+    this.setState({value:''});
+  };
+
+  _onCancel = (inEvent) =>{
+    this.setState({focused:false})
+  };
+
+  componentWillReceiveProps(nextProps) {
+    const value = nextProps.value
+    if(value!== this.state.value){
+      this.setState({value});
+    }
+  }
+
   render(props,{focused,value}){
-    console.log(props);
     return (
       <div
-      onClick={this._onClick}
       className={classNames('weui-search-bar',{
         'weui-search-bar_focusing':focused
       })}>
@@ -31,17 +39,17 @@ export default class extends Component{
                 <i className="weui-icon-search" />
                 <input type="search"
                 onFocus={this._onFocus}
-                onBlur={this._onBlur}
                 onInput={this._onInput}
+                value = {value}
                 className="weui-search-bar__input" id="searchText" placeholder="搜索" />
-                <a href="javascript:" className="weui-icon-clear" />
+                <a href="javascript:" className="weui-icon-clear" onClick={this._onClear} />
               </div>
-              <label htmlFor="searchText" className="weui-search-bar__label" style="transform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1);">
+              <label htmlFor="searchText" className="weui-search-bar__label">
                 <i className="weui-icon-search"></i>
                 <span>搜索</span>
               </label>
           </form>
-          <a href="javascript:" className="weui-search-bar__cancel-btn">取消</a>
+          <a href="javascript:" className="weui-search-bar__cancel-btn" onClick={this._onCancel}>取消</a>
       </div>
     );
   }
