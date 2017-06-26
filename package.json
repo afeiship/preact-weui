@@ -13,7 +13,8 @@
     "prebuild": "cross-env NODE_ENV=production npm run clean",
     "build": "cross-env NODE_ENV=production webpack --config ./build/webpack.prod.conf.js",
     "predev": "cross-env NODE_ENV=development npm run dll",
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --colors --config ./build/webpack.dev.conf.js"
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --colors --config ./build/webpack.dev.conf.js",
+    "publish":"npm publish"
   },
   "main": "dist/preact-weui.js",
   "license": "MIT",
