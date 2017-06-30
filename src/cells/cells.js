@@ -6,7 +6,7 @@ export default class extends Component{
   render(props){
     const {className,...options} = props;
     return (
-      <a href="javascript:;" className={classNames('weui-cells',className)} {...options} />
+      <div href="javascript:;" className={classNames('weui-cells',className)} {...options} />
     );
   }
 }

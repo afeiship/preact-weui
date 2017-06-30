@@ -11,7 +11,7 @@
     "clean": "rimraf dist",
     "start": "webpack-dev-server --inline --colors --config ./build/webpack.example.conf.js",
     "prebuild": "cross-env NODE_ENV=production npm run clean",
-    "build": "cross-env NODE_ENV=production webpack --config ./build/webpack.prod.conf.js",
+    "build": "cross-env NODE_ENV=production webpack -p --config ./build/webpack.prod.conf.js",
     "predev": "cross-env NODE_ENV=development npm run dll",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --colors --config ./build/webpack.dev.conf.js",
     "publish":"npm publish"

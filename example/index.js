@@ -9,6 +9,7 @@ import SearchBar from './components/search-bar/index';
 import Msg from './components/msg/index';
 import MsgSuccess from './components/msg-success/index';
 import MsgWarn from './components/msg-warn/index';
+import Cells from './components/cells/index';
 
 // routes:
 import { Link } from 'preact-router/match';
@@ -25,6 +26,7 @@ render(
     <Msg path="/msg" />
     <MsgSuccess path="/msg-success" />
     <MsgWarn path="/msg-warn" />
+    <Cells path="/cells" />
   </Router>,
   document.getElementById('app')
 );
