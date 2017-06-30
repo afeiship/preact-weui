@@ -10,6 +10,7 @@ import Msg from './components/msg/index';
 import MsgSuccess from './components/msg-success/index';
 import MsgWarn from './components/msg-warn/index';
 import Cells from './components/cells/index';
+import Mask from './components/mask/index';
 
 // routes:
 import { Link } from 'preact-router/match';
@@ -27,6 +28,7 @@ render(
     <MsgSuccess path="/msg-success" />
     <MsgWarn path="/msg-warn" />
     <Cells path="/cells" />
+    <Mask path="/mask" />
   </Router>,
   document.getElementById('app')
 );
