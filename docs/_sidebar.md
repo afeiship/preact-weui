@@ -1,6 +1,7 @@
-- [安装](zh-cn/)
-  - [npm 安装](/setup/npm)
+### 安装
+  - [npm](/setup/npm)
+  - [yarn](/setup/yarn)
 
-- [组件](zh-cn/guide)
+## 组件篇
   - [button](/components/button)
   - [mask](/components/mask)
