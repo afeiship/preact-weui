@@ -1,7 +1,11 @@
-### 安装
+- 安装
   - [npm](/setup/npm)
   - [yarn](/setup/yarn)
 
-## 组件篇
+- 组件
   - [button](/components/button)
   - [mask](/components/mask)
+  - [cells](/components/cells)
+  - [icon](/components/icon)
+  - [msg](/components/msg)
+  - [search-bar](/components/search-bar)
