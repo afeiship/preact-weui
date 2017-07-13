@@ -13,4 +13,4 @@
 - [x] icon
 - [x] search-bar
 - [x] actionsheet
-- [ ] cells
+- [x] dialog
