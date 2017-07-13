@@ -12,4 +12,5 @@
 - [x] button
 - [x] icon
 - [x] search-bar
+- [x] actionsheet
 - [ ] cells
