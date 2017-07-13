@@ -12,6 +12,7 @@ import MsgWarn from './components/msg-warn/index';
 import Cells from './components/cells/index';
 import Mask from './components/mask/index';
 import ActionSheet from './components/actionsheet/index';
+import Dialog from './components/dialog/index';
 
 // routes:
 import { Link } from 'preact-router/match';
@@ -31,6 +32,7 @@ render(
     <Cells path="/cells" />
     <Mask path="/mask" />
     <ActionSheet path="/actionsheet" />
+    <Dialog path="/dialog" />
   </Router>,
   document.getElementById('app')
 );
