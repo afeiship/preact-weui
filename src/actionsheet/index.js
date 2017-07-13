@@ -1,7 +1,7 @@
-import {Component, h} from 'preact';
+import WeuiActionSheet from './actionsheet';
+import WeuiActionSheetCtrl from './actionsheet-ctrl';
 
-export default class extends Component{
-  render(props){
-    <section className="weui-actionsheet">{props.children}</section>
-  }
-}
+export {
+  WeuiActionSheet,
+  WeuiActionSheetCtrl
+};

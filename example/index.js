@@ -11,6 +11,7 @@ import MsgSuccess from './components/msg-success/index';
 import MsgWarn from './components/msg-warn/index';
 import Cells from './components/cells/index';
 import Mask from './components/mask/index';
+import ActionSheet from './components/actionsheet/index';
 
 // routes:
 import { Link } from 'preact-router/match';
@@ -29,6 +30,7 @@ render(
     <MsgWarn path="/msg-warn" />
     <Cells path="/cells" />
     <Mask path="/mask" />
+    <ActionSheet path="/actionsheet" />
   </Router>,
   document.getElementById('app')
 );
