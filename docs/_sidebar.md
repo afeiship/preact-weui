@@ -5,6 +5,7 @@
 - 组件
   - [button](/components/button)
   - [mask](/components/mask)
+  - [actionsheet](/components/actionsheet)
   - [cells](/components/cells)
   - [icon](/components/icon)
   - [msg](/components/msg)
