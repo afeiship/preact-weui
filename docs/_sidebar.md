@@ -7,7 +7,3 @@
   - [mask](/components/mask)
   - [actionsheet](/components/actionsheet)
   - [dialog](/components/dialog)
-  - [cells](/components/cells)
-  - [icon](/components/icon)
-  - [msg](/components/msg)
-  - [search-bar](/components/search-bar)
