@@ -41,10 +41,16 @@ export default class extends Component{
 
   _click2 = e => {
     WeuiDialogCtrl.show({
-      header:'这是一个标题，可以为一行或者两行。',
-      onClick:(inEvent)=>{
-        console.log(inEvent);
-      }
+      body:'弹窗内容，告知当前状态、信息和解决方法，描述文字尽量控制在三行内',
+      footer:[
+        {
+          content:'Only confirm',
+          theme:'primary',
+          onClick:()=>{
+            console.log('OK!');
+          }
+        }
+      ]
     })
   };
 

@@ -50,6 +50,7 @@
     "linkref": "^1.0.1",
     "noop": "github:afeiship/noop",
     "preact": "^8.1.0",
+    "object-assign": "^4.1.1",
     "preact-append-to-document": "github:afeiship/preact-append-to-document",
     "preact-router": "^2.5.2"
   }
