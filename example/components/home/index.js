@@ -1,4 +1,4 @@
-import {CategoryHeader, Page, PageBody, PageFooter, PageHeader} from '../_common/index';
+import {CategoryHeader, Page, PageBody, Accordion, PageFooter, PageHeader} from '../_common/index';
 import {Component, h} from 'preact';
 
 export default class extends Component{
@@ -7,6 +7,7 @@ export default class extends Component{
       <Page page="home">
         <PageHeader title='<img src="./components/_assets/images/logo.png" alt="WeUI" height="21px">' desc='WeUI 是一套同微信原生视觉体验一致的基础样式库，由微信官方设计团队为微信内网页和微信小程序量身设计，令用户的使用感知更加统一。' />
         <PageBody>
+          <Accordion icon="icon_nav_form.png" title="表单" />
           <ul>
             <li>
               <CategoryHeader title="表单" icon="icon_nav_form.png" />
