@@ -1,5 +1,8 @@
 import {h, render} from 'preact';
 
+//styles:
+import './styles/example.scss';
+
 // pages:
 import Button from './components/button/index';
 import Home from './components/home/index';
@@ -17,7 +20,6 @@ import Dialog from './components/dialog/index';
 // routes:
 import { Link } from 'preact-router/match';
 import Router from 'preact-router';
-
 
 render(
   <Router>

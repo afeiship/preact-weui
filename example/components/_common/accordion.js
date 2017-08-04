@@ -42,7 +42,7 @@ export default class extends Component{
   render({ title, icon  }){
     return (
       <section className={classNames('accordion',{
-        'js-show': this.state.visible
+        'js_show': this.state.visible
       })}>
         <header className="hd weui-flex js_category" onClick={this._onHdClick}>
           <p className="weui-flex__item">{title}</p>

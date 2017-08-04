@@ -24,12 +24,15 @@ module.exports = {
         use: [ 'style-loader', 'css-loader' ]
       },
       {
-        test:/\.scss/i,
-        use: [{
-          loader: 'css-loader' // translates CSS into CommonJS
-        }, {
-          loader: 'sass-loader' // compiles Sass to CSS
-        }]
+        test:/\.scss$/i,
+        use: [
+          {
+            loader: 'css-loader' // translates CSS into CommonJS
+          },
+          {
+            loader: 'sass-loader' // compiles Sass to CSS
+          }
+        ]
       },
       {
         test: /\.(gif|jpg|png)\??.*$/,

@@ -12,6 +12,7 @@ module.exports = {
   externals:{
     'preact': 'preact',
     'noop':'noop',
+    'object-assign':'object-assign',
     'classnames':'classnames',
   },
   module:{
