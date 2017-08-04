@@ -3,12 +3,16 @@ import WeuiCell from './cell';
 import WeuiCellsTitle from './cells-title';
 import WeuiCellBody from './body';
 import WeuiCellFooter from './footer';
+import WeuiLink from './link';
+import WeuiCellsTips from './tips';
 
 
 export {
   WeuiCells,
-  WeuiCell,
+  WeuiCellsTips,
   WeuiCellsTitle,
+  WeuiCell,
+  WeuiLink,
   WeuiCellBody,
   WeuiCellFooter,
 }
