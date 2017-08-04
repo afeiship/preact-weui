@@ -16,6 +16,15 @@ import Cells from './components/cells/index';
 import Mask from './components/mask/index';
 import ActionSheet from './components/actionsheet/index';
 import Dialog from './components/dialog/index';
+import List from './components/list/index';
+import Article from './components/article/index';
+import Badge from './components/badge/index';
+import Flex from './components/flex/index';
+import Footer from './components/footer/index';
+import Gallery from './components/gallery/index';
+import Grid from './components/grid/index';
+import Loadmore from './components/loadmore/index';
+import Panel from './components/panel/index';
 
 // routes:
 import { Link } from 'preact-router/match';
@@ -27,6 +36,15 @@ render(
     <Button path="/button" />
     <Input path="/input" />
     <Icons path="/icons" />
+    <List path="/list" />
+    <Article path="/article" />
+    <Badge path="/badge" />
+    <Flex path="/flex" />
+    <Footer path="/footer" />
+    <Gallery path="/gallery" />
+    <Grid path="/grid" />
+    <Loadmore path="/loadmore" />
+    <Panel path="/panel" />
     <SearchBar path="/searchbar" />
     <Msg path="/msg" />
     <MsgSuccess path="/msg-success" />

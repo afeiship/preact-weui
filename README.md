@@ -9,8 +9,4 @@
 ## resources:
 
 ## todos:
-- [x] button
-- [x] icon
-- [x] search-bar
-- [x] actionsheet
-- [x] dialog
+- [ ] radio-group style fix

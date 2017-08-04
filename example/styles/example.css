@@ -12,6 +12,12 @@ ul {
 body, .page {
   background-color: #F8F8F8; }
 
+.rel {
+  position: relative; }
+
+.abs {
+  position: absolute; }
+
 /* lib */
 .link {
   color: #1AAD19; }

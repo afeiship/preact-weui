@@ -56,7 +56,8 @@ module.exports = {
     extensions: [ '.js', '.scss'],
     alias: {
       node_modules: path.join(__dirname, '../node_modules'),
-      src: path.join(__dirname, '../src')
+      src: path.join(__dirname, '../src'),
+      example: path.join(__dirname, '../example')
     }
   }
 };
