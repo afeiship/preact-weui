@@ -25,6 +25,7 @@ import Gallery from './components/gallery/index';
 import Grid from './components/grid/index';
 import Loadmore from './components/loadmore/index';
 import Panel from './components/panel/index';
+import FormPreview from './components/form-preview/index';
 
 // routes:
 import { Link } from 'preact-router/match';
@@ -45,6 +46,7 @@ render(
     <Grid path="/grid" />
     <Loadmore path="/loadmore" />
     <Panel path="/panel" />
+    <FormPreview path="/form-preview" />
     <SearchBar path="/searchbar" />
     <Msg path="/msg" />
     <MsgSuccess path="/msg-success" />
