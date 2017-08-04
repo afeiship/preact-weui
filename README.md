@@ -1,5 +1,5 @@
 # preact-weui
-> Weui for preact.
+> A UI library by WeChat official design team, includes the most useful widgets/modules in mobile web applications.
 
 
 ## usage:
