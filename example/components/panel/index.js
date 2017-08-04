@@ -4,7 +4,15 @@ import PageFooter from '../_common/page-footer';
 import PageHeader from '../_common/page-header';
 import PageBody from '../_common/page-body';
 
-import {WeuiCells, WeuiCell, WeuiLink, WeuiCellsTitle, WeuiCellBody, WeuiCellFooter} from 'src/cells/index';
+import {
+  WeuiCells,
+  WeuiCell,
+  WeuiLink,
+  WeuiCellsTitle,
+  WeuiCellHeader,
+  WeuiCellBody,
+  WeuiCellFooter
+} from 'src/cells/index';
 
 import {
   WeuiMediaBox,
@@ -12,7 +20,9 @@ import {
   WeuiMediaBoxBody,
   WeuiMediaBoxTitle,
   WeuiMediaBoxDesc,
-  WeuiMediaBoxThumb
+  WeuiMediaBoxThumb,
+  WeuiMediaBoxInfo,
+  WeuiMediaBoxInfoMeta,
 } from 'src/media-box/index';
 
 import {
@@ -89,6 +99,53 @@ export default class extends Component {
               </WeuiCell>
             </WeuiPanelFooter>
           </WeuiPanel>
+
+          <WeuiPanel>
+            <WeuiPanelHeader>文字组合列表</WeuiPanelHeader>
+            <WeuiPanelBody>
+              <WeuiMediaBox role="small-appmsg">
+                <WeuiCells>
+                  <WeuiCell access>
+                    <WeuiCellHeader>
+                      <img style="width:20px;margin-right:5px;display:block" src="http://placeholder.qiniudn.com/20" alt=""/>
+                    </WeuiCellHeader>
+                    <WeuiCellBody className="weui-cell_primary">文字标题</WeuiCellBody>
+                    <WeuiCellFooter />
+                  </WeuiCell>
+
+                  <WeuiCell access>
+                    <WeuiCellHeader>
+                      <img style="width:20px;margin-right:5px;display:block" src="http://placeholder.qiniudn.com/20" alt=""/>
+                    </WeuiCellHeader>
+                    <WeuiCellBody className="weui-cell_primary">文字标题</WeuiCellBody>
+                    <WeuiCellFooter />
+                  </WeuiCell>
+                </WeuiCells>
+              </WeuiMediaBox>
+            </WeuiPanelBody>
+          </WeuiPanel>
+
+          <WeuiPanel>
+            <WeuiPanelHeader>文字列表附来源</WeuiPanelHeader>
+            <WeuiPanelBody>
+              <WeuiMediaBox role="text">
+                <WeuiMediaBoxTitle>
+                  标题一
+                </WeuiMediaBoxTitle>
+                <WeuiMediaBoxBody>
+                  <WeuiMediaBoxDesc>由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</WeuiMediaBoxDesc>
+                </WeuiMediaBoxBody>
+
+                <WeuiMediaBoxInfo>
+                  <WeuiMediaBoxInfoMeta> 文字来源 </WeuiMediaBoxInfoMeta>
+                  <WeuiMediaBoxInfoMeta> 时间 </WeuiMediaBoxInfoMeta>
+                  <WeuiMediaBoxInfoMeta extra> 其它信息 </WeuiMediaBoxInfoMeta>
+                </WeuiMediaBoxInfo>
+              </WeuiMediaBox>
+            </WeuiPanelBody>
+          </WeuiPanel>
+
+
 
 
         </PageBody>

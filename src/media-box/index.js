@@ -4,6 +4,8 @@ import WeuiMediaBoxBody from './body';
 import WeuiMediaBoxTitle from './title';
 import WeuiMediaBoxDesc from './desc';
 import WeuiMediaBoxThumb from './thumb';
+import WeuiMediaBoxInfo from './info';
+import WeuiMediaBoxInfoMeta from './info-meta';
 
 export {
   WeuiMediaBox,
@@ -11,5 +13,7 @@ export {
   WeuiMediaBoxBody,
   WeuiMediaBoxTitle,
   WeuiMediaBoxDesc,
-  WeuiMediaBoxThumb
+  WeuiMediaBoxThumb,
+  WeuiMediaBoxInfo,
+  WeuiMediaBoxInfoMeta
 };
