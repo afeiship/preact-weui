@@ -30,29 +30,29 @@ import Router from 'preact-router';
 
 render(
   <Router>
-    <Home path="/" />
-    <Button path="/button" />
-    <Input path="/input" />
-    <Icons path="/icons" />
-    <List path="/list" />
-    <Article path="/article" />
-    <Badge path="/badge" />
-    <Flex path="/flex" />
-    <Footer path="/footer" />
-    <Gallery path="/gallery" />
-    <Grid path="/grid" />
-    <Loadmore path="/loadmore" />
-    <Panel path="/panel" />
-    <FormPreview path="/form-preview" />
-    <SearchBar path="/search-bar" />
-    <Msg path="/msg" />
-    <Layers path="/layers" />
-    <MsgSuccess path="/msg-success" />
-    <MsgWarn path="/msg-warn" />
-    <Cells path="/cells" />
-    <Mask path="/mask" />
-    <ActionSheet path="/actionsheet" />
-    <Dialog path="/dialog" />
+    <Home path="/preact-weui/docs/" />
+    <Button path="/preact-weui/docs/button" />
+    <Input path="/preact-weui/docs/input" />
+    <Icons path="/preact-weui/docs/icons" />
+    <List path="/preact-weui/docs/list" />
+    <Article path="/preact-weui/docs/article" />
+    <Badge path="/preact-weui/docs/badge" />
+    <Flex path="/preact-weui/docs/flex" />
+    <Footer path="/preact-weui/docs/footer" />
+    <Gallery path="/preact-weui/docs/gallery" />
+    <Grid path="/preact-weui/docs/grid" />
+    <Loadmore path="/preact-weui/docs/loadmore" />
+    <Panel path="/preact-weui/docs/panel" />
+    <FormPreview path="/preact-weui/docs/form-preview" />
+    <SearchBar path="/preact-weui/docs/search-bar" />
+    <Msg path="/preact-weui/docs/msg" />
+    <Layers path="/preact-weui/docs/layers" />
+    <MsgSuccess path="/preact-weui/docs/msg-success" />
+    <MsgWarn path="/preact-weui/docs/msg-warn" />
+    <Cells path="/preact-weui/docs/cells" />
+    <Mask path="/preact-weui/docs/mask" />
+    <ActionSheet path="/preact-weui/docs/actionsheet" />
+    <Dialog path="/preact-weui/docs/dialog" />
   </Router>,
   document.getElementById('app')
 );

@@ -15,7 +15,7 @@ export default class extends Component {
   };
 
   _click = e => {
-    route(e);
+    route(`/preact-weui/docs/${e}`);
   };
 
   render() {
