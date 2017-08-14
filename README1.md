@@ -1,6 +1,8 @@
 # preact-weui
 > A UI library by WeChat official design team, includes the most useful widgets/modules in mobile web applications.
 
+---
+
 ## install:
 ```bash
 npm install --save preact-weui
