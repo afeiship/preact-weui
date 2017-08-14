@@ -6,7 +6,7 @@ import PageBody from '../_common/page-body';
 
 import WeuiGrid from 'src/grid/index';
 
-import iconImage from 'example/styles/images/icon_tabbar.png';
+import iconImage from 'docs/styles/images/icon_tabbar.png';
 
 export default class extends Component {
   state = {

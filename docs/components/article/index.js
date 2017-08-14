@@ -4,7 +4,7 @@ import PageFooter from '../_common/page-footer';
 import PageHeader from '../_common/page-header';
 import PageBody from '../_common/page-body';
 
-import picArticleImage from 'example/styles/images/pic_article.png';
+import picArticleImage from 'docs/styles/images/pic_article.png';
 
 import WeuiArticle from 'src/article/index';
 

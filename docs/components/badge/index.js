@@ -15,7 +15,7 @@ import {
 } from 'src/cells/index';
 import WeuiBadge from 'src/badge/index';
 
-import pic160Image from 'example/styles/images/pic_160.png';
+import pic160Image from 'docs/styles/images/pic_160.png';
 
 export default class extends Component {
 

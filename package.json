@@ -1,6 +1,6 @@
 {
   "name": "preact-weui",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Weui for preact.",
   "homepage": "https://github.com/afeiship/preact-weui",
   "author": {
@@ -9,13 +9,10 @@
   },
   "scripts": {
     "clean": "rimraf dist",
-    "docs": "docsify serve ./docs",
-    "example": "webpack-dev-server --inline --colors --config ./build/webpack.example.conf.js",
-    "build-example": "cross-env NODE_ENV=production webpack -p --config ./build/webpack.example.build.conf.js",
+    "docs": "webpack-dev-server --inline --colors --config ./build/webpack.docs.conf.js",
+    "build-docs": "cross-env NODE_ENV=production webpack -p --config ./build/webpack.docs.build.conf.js",
     "prebuild": "cross-env NODE_ENV=production npm run clean",
     "build": "cross-env NODE_ENV=production webpack -p --config ./build/webpack.prod.conf.js",
-    "predev": "cross-env NODE_ENV=development npm run dll",
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --colors --config ./build/webpack.dev.conf.js",
     "publish": "npm publish"
   },
   "main": "dist/preact-weui.js",

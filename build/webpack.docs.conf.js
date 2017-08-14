@@ -2,9 +2,9 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  entry:'./example/index.js',
+  entry:'./docs/index.js',
   output:{
-    path: path.join(__dirname ,'./example/dist'),
+    path: path.join(__dirname ,'./docs/dist'),
     filename: 'bundle.js'
   },
   module:{
@@ -44,7 +44,7 @@ module.exports = {
   //devtools:
   devtool:'source-map',
   devServer:{
-    contentBase: path.join(__dirname,'../example/'),
+    contentBase: path.join(__dirname,'../docs/'),
     compress:true,
     historyApiFallback: true,
     headers: {
@@ -57,7 +57,7 @@ module.exports = {
     alias: {
       node_modules: path.join(__dirname, '../node_modules'),
       src: path.join(__dirname, '../src'),
-      example: path.join(__dirname, '../example')
+      docs: path.join(__dirname, '../docs')
     }
   }
 };
