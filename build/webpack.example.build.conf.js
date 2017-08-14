@@ -4,7 +4,7 @@ const webpack = require('webpack');
 module.exports = {
   entry:'./example/index.js',
   output:{
-    path: path.join(__dirname ,'../example'),
+    path: path.join(__dirname ,'../example/dist'),
     filename: 'bundle.js'
   },
   module:{
@@ -39,5 +39,13 @@ module.exports = {
         loader: 'url-loader?limit=8096&name=images/[name].[ext]'
       }
     ]
+  },
+  resolve: {
+    extensions: [ '.js', '.scss'],
+    alias: {
+      node_modules: path.join(__dirname, '../node_modules'),
+      src: path.join(__dirname, '../src'),
+      example: path.join(__dirname, '../example')
+    }
   }
 };

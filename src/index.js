@@ -33,7 +33,7 @@ import Gallery from './gallery/index';
 import Grid from './grid/index';
 import Icon from './icon/index';
 import Input from './input/index';
-import Loadmore from './loadmore/index';
+import LoadMore from './loadmore/index';
 import Mask from './mask/index';
 import MediaBox from './media-box/media-box';
 import MediaBoxHeader from './media-box/header';
@@ -105,7 +105,7 @@ export {
   //input
   Input,
   //loadmore
-  Loadmore,
+  LoadMore,
   //mask
   Mask,
   //media-box
