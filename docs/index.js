@@ -30,29 +30,29 @@ import Router from 'preact-router';
 
 render(
   <Router>
-    <Home path="/preact-weui/docs/" />
-    <Button path="/preact-weui/docs/button" />
-    <Input path="/preact-weui/docs/input" />
-    <Icons path="/preact-weui/docs/icons" />
-    <List path="/preact-weui/docs/list" />
-    <Article path="/preact-weui/docs/article" />
-    <Badge path="/preact-weui/docs/badge" />
-    <Flex path="/preact-weui/docs/flex" />
-    <Footer path="/preact-weui/docs/footer" />
-    <Gallery path="/preact-weui/docs/gallery" />
-    <Grid path="/preact-weui/docs/grid" />
-    <Loadmore path="/preact-weui/docs/loadmore" />
-    <Panel path="/preact-weui/docs/panel" />
-    <FormPreview path="/preact-weui/docs/form-preview" />
-    <SearchBar path="/preact-weui/docs/search-bar" />
-    <Msg path="/preact-weui/docs/msg" />
-    <Layers path="/preact-weui/docs/layers" />
-    <MsgSuccess path="/preact-weui/docs/msg-success" />
-    <MsgWarn path="/preact-weui/docs/msg-warn" />
-    <Cells path="/preact-weui/docs/cells" />
-    <Mask path="/preact-weui/docs/mask" />
-    <ActionSheet path="/preact-weui/docs/actionsheet" />
-    <Dialog path="/preact-weui/docs/dialog" />
+    <Home path="/preact-weui/" />
+    <Button path="/preact-weui/button" />
+    <Input path="/preact-weui/input" />
+    <Icons path="/preact-weui/icons" />
+    <List path="/preact-weui/list" />
+    <Article path="/preact-weui/article" />
+    <Badge path="/preact-weui/badge" />
+    <Flex path="/preact-weui/flex" />
+    <Footer path="/preact-weui/footer" />
+    <Gallery path="/preact-weui/gallery" />
+    <Grid path="/preact-weui/grid" />
+    <Loadmore path="/preact-weui/loadmore" />
+    <Panel path="/preact-weui/panel" />
+    <FormPreview path="/preact-weui/form-preview" />
+    <SearchBar path="/preact-weui/search-bar" />
+    <Msg path="/preact-weui/msg" />
+    <Layers path="/preact-weui/layers" />
+    <MsgSuccess path="/preact-weui/msg-success" />
+    <MsgWarn path="/preact-weui/msg-warn" />
+    <Cells path="/preact-weui/cells" />
+    <Mask path="/preact-weui/mask" />
+    <ActionSheet path="/preact-weui/actionsheet" />
+    <Dialog path="/preact-weui/dialog" />
   </Router>,
   document.getElementById('app')
 );
