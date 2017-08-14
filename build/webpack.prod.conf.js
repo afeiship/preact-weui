@@ -4,7 +4,7 @@ const glob = require('glob');
 const entries = glob.sync('./src/**/index.js');
 
 module.exports = {
-  entry:entries,
+  entry:'./src/index.js',
   output:{
     path: path.join(__dirname ,'../dist/'),
     filename: 'preact-weui.js'
