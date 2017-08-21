@@ -1,8 +1,10 @@
 # preact-weui
 > A UI library by WeChat official design team, includes the most useful widgets/modules in mobile web applications.
-
-<img src="./docs/images/preact-weui.png" width="518" align="center">
 ---
+
+<p align="center">
+  <img src="./docs/images/preact-weui.png" width="518" align="center">
+</p>
 
 ## install:
 ```bash
