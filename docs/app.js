@@ -1,4 +1,4 @@
-import {h, render} from 'preact';
+import {h, Component} from 'preact';
 
 // pages:
 import Button from './components/button/index';
