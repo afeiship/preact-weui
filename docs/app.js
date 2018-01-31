@@ -27,7 +27,7 @@ import Layers from './components/layers/index';
 
 // routes:
 import Router from 'preact-router';
-
+import createHashHistory from 'history/createHashHistory';
 
 export default class extends Component {
 	/** Gets fired when the route changes.
@@ -40,7 +40,7 @@ export default class extends Component {
 
 	render() {
 		return (
-			<Router onChange={this.handleRoute}>
+			<Router onChange={this.handleRoute} history={createHashHistory()}>
         <Home path="/preact-weui/" />
         <Button path="/preact-weui/button" />
         <Input path="/preact-weui/input" />

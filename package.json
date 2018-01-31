@@ -11,6 +11,7 @@
     "clean": "rimraf dist",
     "docs": "webpack-dev-server --inline --colors --config ./build/webpack.docs.conf.js",
     "build-docs": "cross-env NODE_ENV=production webpack -p --config ./build/webpack.docs.build.conf.js",
+    "start": "node express",
     "prebuild": "cross-env NODE_ENV=production npm run clean",
     "build": "cross-env NODE_ENV=production webpack -p --config ./build/webpack.prod.conf.js",
     "publish": "npm publish"
@@ -34,8 +35,10 @@
     "babel-register": "^6.0.0",
     "cross-env": "^5.0.1",
     "css-loader": "^0.28.4",
+    "express": "^4.16.2",
     "file-loader": "^0.11.2",
     "glob": "^7.1.2",
+    "history": "^4.7.2",
     "node-sass": "^4.5.3",
     "rimraf": "^2.6.1",
     "sass-loader": "^6.0.6",
