@@ -41,7 +41,7 @@ export default class extends Component {
 	render() {
 		return (
 			<Router onChange={this.handleRoute} history={createHashHistory()}>
-        <Home path="/preact-weui/" />
+        <Home path="/" />
         <Button path="/preact-weui/button" />
         <Input path="/preact-weui/input" />
         <Icons path="/preact-weui/icons" />
