@@ -35,7 +35,6 @@ export default class extends Component {
 	 *	@param {string} event.url	The newly routed URL
 	 */
 	handleRoute = e => {
-    console.log(e);
 		this.currentUrl = e.url;
 	};
 
