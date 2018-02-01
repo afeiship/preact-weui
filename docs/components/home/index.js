@@ -2,7 +2,7 @@ import {CategoryHeader, Page, PageBody, Accordion, PageFooter, PageHeader} from 
 import {Component, h} from 'preact';
 
 import {route} from 'preact-router';
-
+import logoImg from 'docs/components/_assets/images/logo.png';
 
 export default class extends Component {
   static defaultProps = {
@@ -28,10 +28,9 @@ export default class extends Component {
       search_items,
       layer_items
     } = this.props;
-
     return (
       <Page page="home">
-        <PageHeader title='<img src="./components/_assets/images/logo.png" alt="WeUI" height="21px">'
+        <PageHeader title={`<img src="${logoImg}" alt="WeUI" height="21px">`}
                     desc='WeUI 是一套同微信原生视觉体验一致的基础样式库，由微信官方设计团队为微信内网页和微信小程序量身设计，令用户的使用感知更加统一。'/>
         <PageBody>
           <Accordion icon="icon_nav_form.png" title="表单" items={form_items} onClick={this._click}/>
