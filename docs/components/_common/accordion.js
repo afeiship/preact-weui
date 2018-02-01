@@ -49,7 +49,7 @@ export default class extends Component {
       })}>
         <header className="hd weui-flex js_category" onClick={this._onHdClick}>
           <p className="weui-flex__item">{title}</p>
-          <img src={`./components/_assets/images/${icon}`} alt=""/>
+          <img src={icon} alt=""/>
         </header>
         <div className="bd page__category js_categoryInner">
           <WeuiCells>
