@@ -5,11 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Preact - WeUI</title>
-  <link rel="stylesheet" href="https://cdn.bootcss.com/weui/1.1.2/style/weui.min.css">
-  <link rel="stylesheet" href="./styles/example.css">
 </head>
 <body>
   <main id="app"></main>
-  <script src="./dist/bundle.js?ver=1.0.1"></script>
+  <script src="http://org2gwhgm.bkt.clouddn.com/app-cache-v0.0.1.js?ver=weui-12"></script>
+  <script>
+    AppCache.load([
+      'https://cdn.bootcss.com/weui/1.1.2/style/weui.min.css',
+      './styles/example.css',
+      './dist/bundle.js?ver=1.0.2',
+    ],{});
+  </script>
 </body>
 </html>
