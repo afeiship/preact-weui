@@ -27,3 +27,6 @@ npm install --save preact-weui
 
 ## todos:
 - [ ] radio-group style fix
+- [ ] ReactWeui -> Weui
+- [ ] bable-import-plugin for dynamic import 
+- [ ] package libs dir
