@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://afeiship.github.io/preact-weui/">
-    <img src="./docs/images/preact-weui.png" width="518" align="center">
+    <img src="./docs/images/preact-weui.png?ts=0.0.1" width="518" align="center">
   </a>
 </p>
 
