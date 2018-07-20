@@ -10,7 +10,7 @@
 
 ## install:
 ```bash
-npm install --save preact-weui
+npm install --save afeiship/preact-weui
 ```
 
 ## get started
